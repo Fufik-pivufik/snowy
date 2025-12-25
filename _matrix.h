@@ -54,7 +54,7 @@ public:
       // std::cout << "|";
       for (long j = 0; j < w; ++j)
         if (matrix[i][j].val > 0)
-          printf("\e[38;2;%d;%d;%dm█\e[0m", matrix[i][j].r, matrix[i][j].g,
+          printf("\e[38;2;%d;%d;%dm*\e[0m", matrix[i][j].r, matrix[i][j].g,
                  matrix[i][j].b); // SYMS[matrix[i][j].val]);
         else
           printf(" ");
