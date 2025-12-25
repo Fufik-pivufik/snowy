@@ -1,6 +1,6 @@
-#include "./helpf/_helpfs.h"
-#include "./helpf/_matrix.h"
-#include "./helpf/_shapes.h"
+#include "./_helpfs.h"
+#include "./_matrix.h"
+#include "./_shapes.h"
 #include <asm-generic/ioctls.h>
 #include <chrono>
 #include <stdlib.h>
